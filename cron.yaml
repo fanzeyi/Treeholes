@@ -1,0 +1,7 @@
+cron:
+- description: Fetch Status
+  url: /fetch
+  schedule: every 1 minutes synchronized
+- description: Send Status
+  url: /send
+  schedule: every 1 minutes synchronized

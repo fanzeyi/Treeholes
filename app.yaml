@@ -1,0 +1,17 @@
+application: yourappid
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /fetch
+  script: fetch.py
+
+- url: /send
+  script: fetch.py
+
+builtins:
+- datastore_admin: on
+- remote_api: on
+
+#  vim: set ts=8 sw=8 tw=0 :
